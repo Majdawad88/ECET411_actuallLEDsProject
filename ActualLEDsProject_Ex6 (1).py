@@ -6,7 +6,7 @@ from time import sleep # Import the sleep func�on from the �me module
 GPIO.setwarnings(False) # Ignore warning for now
 GPIO.setmode(GPIO.BCM) # Use physical pin numbering
 LED = 21
-GPIO.setup(LED, GPIO.OUT, inial=GPIO.LOW) # Set pin 21 to be an output pin 
+GPIO.setup(LED, GPIO.OUT, initial=GPIO.LOW) # Set pin 21 to be an output pin 
 
 
 
