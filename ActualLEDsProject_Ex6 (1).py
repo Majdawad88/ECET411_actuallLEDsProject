@@ -1,3 +1,6 @@
+# git clone https://github.com/Majdawad88/ECET411_actuallLEDsProject.git
+
+
 import RPi.GPIO as GPIO # Import Raspberry Pi GPIO library
 from time import sleep # Import the sleep func�on from the �me module
 GPIO.setwarnings(False) # Ignore warning for now
